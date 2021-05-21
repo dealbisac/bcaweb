@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Type</title>
+</head>
+<body>
+    <form>
+        <!-- text -->
+        Name: <input type="text" placeholder="Type your Name" >
+        <br>
+
+        <!-- text when size is specified -->
+        <input type="text" size="50">
+        <br>
+
+        <!-- checkbox -->
+        <input type="checkbox" name="Play" checked value="play"> Play
+        <input type="checkbox" name="Run" value="run"> Run
+        <input type="checkbox" name="Walk" value="walk"> Walk
+        <br>
+
+        <!-- radio button -->
+        <input type="radio" name="gender" value="male"> male
+        <input type="radio" name="gender" value="female"> female
+        <input type="radio" name="gender" value="other"> other
+        <br>
+        
+
+        <!-- using label -->
+        <label>
+            <input type="radio" name="color" value="#F00">Red
+        </label>
+
+
+        <!-- using fieldset -->
+        <fieldset>
+            <legend>Theme color:</legend>
+            <p>
+                <input type="radio" name="color" id="red" value="#F00">
+                <label for="red">Red</label>
+            </p>
+            <p>
+                <input type="radio" name="color" id="green" value="#0F0">
+                <label for="green">Green</label>
+            </p>
+            <p>
+                <input type="radio" name="color" id="blue" value="#00F">
+                <label for="blue">Blue</label>
+            </p>
+        </fieldset>
+
+        <!-- button -->
+        <!-- <input type="button" name="Submit" > -->
+
+        <!-- color -->
+        Color: <input type="color" name="favcolor" value="#ff0000">
+        <br>
+
+
+        <!-- password -->
+        <!-- Password: <input type="password" name="password"> -->
+        Password: <input type="password" name="password" placeholder="Type your password">
+
+        <br>
+        <input type="button" onclick="alert('hello world!')" value="Click Me">
+
+        <button onclick="alert('hello again')">Click Me</button>
+
+        <!-- <button type="submit">Submit</button> -->
+
+
+        <!-- telephone -->
+        <!-- <input type="tel" value="+8400000000"> -->
+        <input type="tel" placeholder="telephone">
+        <br>
+        <br>
+
+        <input type="range" min="0" max="100" step="10" />
+
+        <br>
+        <br>
+        <input type="search" name="googlesearch">
+
+        <br>
+        <br>
+        <input type="week" />
+
+        <br>
+        <br>
+        <input type="url" name="Homepage">
+
+        <br>
+        <br>
+        <input type="datetime-local" />
+
+        <br>
+        <br>
+        <input type="month" />
+
+        <br>
+        <br>
+        <input type=time />
+
+        <br>
+        <br>
+        <fieldset>
+            <p><label>Meeting time: <input type=datetime name="meeting.start"></label>
+           </fieldset>
+
+
+           <br>
+           <br>
+           <input type="date" />
+
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Reset">
+        
+
+    </form>
+    
+</body>
+</html>

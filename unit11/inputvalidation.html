@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validation</title>
+</head>
+<body>
+    <form>
+       <!-- College ID:  <input type="text" required minlength="3" maxlength="6"> -->
+       <!-- Mobile Number : <input type="text" required minlegth="10"> -->
+
+       <!-- range specify -->
+       <!-- Marks: <input type="number" size="6" name="marks" min="0" max="100" />
+       Subject Feedback: <input type="range" size="5" name="feedback" min="1" max="5" /> -->
+
+       <!-- pattern -->
+       <!-- <input pattern="\d*" title="Numbers only, please."> -->
+
+       <!-- filetype -->
+       <!-- <input type="file" accept="image/*" title="Only images are allowed"> -->
+
+       <!-- multiple file -->
+       <input type="file" accept="image/*,.rar, .pdf, application/zip">
+
+       <label>E-mail: <label>
+        <input type="email" name="email" required>
+
+        <input type="submit" value="Submit">
+    </form>
+<hr>
+    <br>
+    <br>
+    <form>
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <input pattern="\d*" name="number" required>
+        <input type="submit" value="Publish"> <!-- form will be validated -->
+        <input type="submit" value="Save" formnovalidate> <!-- form will NOT be validated -->
+       </form>
+    
+</body>
+</html>
