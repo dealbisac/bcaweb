@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Whitefield/School College Online Form</title>
+</head>
+<style>
+    .header{
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .onlineform{
+        margin: 10px, 100px;
+    }
+
+    .onlineform > form {
+        margin: 10px, 80px;
+    }
+
+</style>
+<body>
+    <!-- top header division -->
+    <div class="header">
+        <h1>Whitefield School/College</h1>
+        <p>Chhetrapati, Kathmandu 4251733, 4249538</p>
+        
+        <h2>Online Registration Form 2078</h2>
+        <img src="https://veda-app.s3.ap-south-1.amazonaws.com/assets/veda-media-digitalocean/assets/logo/8Y81YUTyQ33QkMhr.png" 
+            alt="Whitefield Logo" width="200px" height="200px" >
+
+    </div>
+
+    <!-- form division -->
+    <div class="onlineform">
+        <form name=admissionform action="#" method="POST">
+            <fieldset>
+                <legend style="font-weight: bold;">Student Name (IN BLOCK LETTER</legend>
+                First Name * <input type="text" name="firstname" required> &nbsp; &nbsp; &nbsp; 
+                Middle Name <input type="text" name="middlename"> &nbsp; &nbsp; &nbsp; 
+                Last Name * <input type="text" name="lastname" required> 
+            </fieldset> <br>
+            <fieldset>
+                <legend style="font-weight: bold;">Date</legend>
+                English Date <input type="date" name="endate" required>&nbsp; &nbsp; &nbsp; 
+                Nepali Date <input type="date" name="npdate" required >
+            </fieldset> <br>
+            <fieldset>
+                <legend style="font-weight: bold;">Gender * </legend>
+                Male <input type="radio" name="gender" required >
+                Female <input type="radio" name="gender" required >
+            </fieldset> <br>
+            <fieldset>
+                Address * <input type="text" name="address" required > &nbsp; &nbsp; &nbsp; 
+                Admission for Grade <select name="grade">
+                    <option > Select Grade</option>
+                    <option name="Nursery">Nursery</option>
+                    <option name="LKG">LKG</option>
+                    <option name="UKG">UKG</option>
+                    <option name="1">1</option>
+                    <option name="2">2</option>
+                    <option name="3">3</option>
+                    <option name="4">4</option>
+                    <option name="5">5</option>
+                    <option name="6">6</option>
+                    <option name="7">7</option>
+                    <option name="8">8</option>
+                    <option name="9">9</option>
+                    <option name="10">10</option>
+                    <option name="XI">XI</option>
+                    <option name="XII">XII</option>
+                    <option name="Bachelor">Bachelor</option>
+                </select> &nbsp; &nbsp; &nbsp; 
+                School Last Attended <input type="text" name="lastschool" required>
+            </fieldset> <br>
+            <fieldset>
+                <legend style="font-weight: bold;">Please tick (✓) The appropriate box if the student needs any/all the following services.</legend>
+                Hostel &nbsp;  &nbsp; &nbsp;  Yes <input type="radio" name="hostel"> No <input type="radio" name="hostel">
+            </fieldset>
+
+
+            <input type="submit" value="submit" name="submit">
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
