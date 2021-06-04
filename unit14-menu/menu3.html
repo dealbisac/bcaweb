@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Menu Examples</title>
+    <title>Fixed Menu Examples</title>
 </head>
 <!-- Inline; Internal External -->
 <style>
@@ -13,7 +13,10 @@
 
     .topnav{
         overflow: hidden;
-        background-color: #333;
+        /* background-color: #333; */
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     .topnav a {
@@ -35,6 +38,15 @@
         color: white;
     }
 
+    .topnav input[type=text]{
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        border: none;
+        font-size: 17px;
+    }
+
 </style>
 <body>
     <div class="topnav">
@@ -42,10 +54,11 @@
         <a href="#news">News</a:href>
         <a href="#contact">Contact</a:href>
         <a href="#about"> About</a>
+        <input type="text" placeholder="Search...">
     </div>
     
     <div class="content">
-        <p>Some text some text some text some text..</p>
+        <p> First Some text some text some text some text..</p>
   <p>Some text some text some text some text..</p>
   <p>Some text some text some text some text..</p>
   <p>Some text some text some text some text..</p>
