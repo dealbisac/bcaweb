@@ -1,6 +1,29 @@
+/* * {
+  text-align: center;
+} */
+
 h1 {
   text-align: center;
   color: red;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+#first {
+  text-align: justify;
+  color: green;
+}
+
+.second {
+  color: #f74;
+}
+
+h2.second {
+  text-transform: uppercase;
+}
+
+h4,
+h5 {
+  text-transform: uppercase;
+  color: purple;
 }
