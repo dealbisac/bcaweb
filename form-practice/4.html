@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Example 4</title>
+</head>
+<body>
+    <!-- Example 4: http://3.bp.blogspot.com/-orMIBaf8_lA/Tz3xiss0fzI/AAAAAAAAAAc/z5_Uj8giG2Q/s1600/html_form_03.jpg -->
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>This is my form</legend>
+              <table>
+                  <tr>
+                      <td>Email</td>
+                      <td><input type="email" name="email" ></td>
+                  </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password" name="cpassword"></td>
+                </tr>
+                <tr>
+                    <td>upload your Picture</td>
+                    <td>
+                        <input type="file" name="picture">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Country</td>
+                    <td>
+                        <select name="country">
+                            <option value="UK">United Kingdom</option>
+                            <option value="USA">United States of America</option>
+                            <option value="NP">Nepal</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="Cricket">Cricket
+                        <input type="checkbox" name="hobby" value="Football">Football
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea name="address" cols="25" rows="5" style="resize: none;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+              </table>
+        </fieldset>
+    </form>
+</body>
+</html>
