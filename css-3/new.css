@@ -1,0 +1,61 @@
+/* This is the css for the new.css */
+
+/* auto, length (px, cm), %, initial, inherit */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  text-decoration: overline;
+  text-shadow: 2px 2px 5px black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div {
+  height: 150px;
+  max-width: 500px;
+  /* border: 1px solid #dc143c; */
+  background-color: cornflowerblue;
+  outline: red dotted 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-model {
+  text-indent: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  /* white-space: nowrap; */
+  line-height: 2;
+  width: 400px;
+  height: 330px;
+  height: fit-content;
+  border: 1px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: initial;
+  outline: initial;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* Font Family
+Serif : formal and elgance.
+Sans-serif: modern and minimalistic look.
+Monospace |: mechanical look
+Cursive: human handwriting
+Fantasy: decorative and playful fonts
+
+Best Web Safe Fonts
+Arial (sans-serif)
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+
+
+
+*/
